@@ -1,0 +1,28 @@
+.main-container {
+  width: 85%;
+
+  .header-title {
+    height: 10%;
+    background-color: yellow;
+    border-bottom: 1px solid #000;
+    // justify-content: center;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+  }
+  .header-main-container {
+    height: 90%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    .stock-market-container {
+      width: 72%;
+      background-color: #f8f8f6;
+    }
+    .portfolio-section {
+      padding: 0 0 0 10%;
+      width: 15%;
+      background-color: #fec0a7;
+    }
+  }
+}
